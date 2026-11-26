@@ -1,8 +1,11 @@
 /Release/
 /Source/bin/
 /Source/obj/
-/Data/
+/loopMIDISetup/
 /UdonSharp/
+/Data/
 .vs/
 *.user
 *.suo
+
+/UdonSharp/
