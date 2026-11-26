@@ -1,4 +1,0 @@
-UdonSharp files: byte-identical to v0.1.15.
-Knob IDs: 37 distinct in actual Program.cs.
-Python reference model: exhaustive 7-bit and 14-bit split/recombine checks passed.
-Windows WPF / C# compile, native input, hardware, VRChat tests: NOT RUN.
