@@ -1,0 +1,8 @@
+/Release/
+/Source/bin/
+/Source/obj/
+/Data/
+/UdonSharp/
+.vs/
+*.user
+*.suo

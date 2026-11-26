@@ -1,0 +1,17 @@
+2026-11-26 integrated package static checks
+Windows sources / build script / reference images byte-identical to v0.1.6 WithDocuments_MIDI.
+Latest two UdonSharp sources copied byte-identically from delivered v0.1.6 Center and v0.1.7 MIDI.
+Old manual addition file removed.
+No Windows or Unity compilation performed.
+8b555025bee87c895a1178e66ad0180709531ed900a4535a928d90ed1663d9c9  Source/Program.cs
+6c01725db0eedfe30bfe479ba8478b277221a46525e1a09e57f470ee321c283c  UdonSharp/CenterConsoleController.cs
+4160255e98b799b25fa7f9967c621f9d866f1b93928c097181223ef335feec76  UdonSharp/MidiConsoleController.cs
+
+Historical check record:
+v0.1.6: source diff and ZIP integrity checked. Windows/WPF build and runtime not tested.
+
+2026-11-26 v0.1.9: 37 knob IDs preserved; 61 macro IDs partitioned without duplicates; both runtime UdonSharp files byte-identical to v0.1.8. Windows/Unity execution not tested.
+
+2026-11-26 v0.1.12: ZIP base comparison passed; unchanged Center, exporter, project, build script, MIDI spec, KnobVisual and PaintedMetal code, MIDI input and macro feedback methods. Python model: 8 cardinal/intercardinal directions, wrap, ties, moving, digit masks and sample packet fields checked. No C#/Unity build or runtime tests.
+
+2026-11-26 v0.1.13: Compared all files with v0.1.12. All UdonSharp files, build script, project, existing MIDI/INFO protocol and unrelated source sections unchanged. Python static layout model: all 61 IDs unique and complete; moved header and macro button bounds/non-overlap verified. Windows/Unity runtime and compilation NOT performed.

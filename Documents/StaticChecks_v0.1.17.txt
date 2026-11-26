@@ -1,0 +1,3 @@
+Python reference model: both example curves, exhaustive 7-bit and 14-bit monotonicity and forward/inverse round-trip, normal and reversed: PASS.
+UdonSharp byte comparison with v0.1.16: PASS.
+C#/.NET build and hardware tests: NOT RUN.
